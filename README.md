@@ -1,0 +1,3 @@
+$ autoreconf -vif  
+$ ./configure  
+$ make
