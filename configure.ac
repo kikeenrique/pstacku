@@ -55,3 +55,33 @@ AC_SUBST([ARCH_OBJ])
 AC_CONFIG_FILES(Makefile)
 
 AC_OUTPUT
+
+
+################################################################################
+#        Developer info
+################################################################################
+echo ""
+echo "======================================================================"
+echo ""
+echo "<$PACKAGE_NAME> configuration:"
+echo " C compiler       : $CC"
+echo " Prefix           : $prefix"
+echo " CPPFLAGS         : $CPPFLAGS"
+echo " CXXCPP           : $CXXCPP"
+echo " OLD_CFLAGS       : $OLD_CFLAGS"
+echo " CFLAGS           : $CFLAGS"
+echo " C++ compiler     : $CXX"
+echo " CXXFLAGS         : $CXXFLAGS"
+echo " CXXCOMPILE       : $CXXCOMPILE"
+echo " CXXLINK          : $CXXLINK"
+echo " LDFLAGS          : $LDFLAGS"
+echo " LIBS             : $LIBS"
+echo ""
+echo " DEFS             : $DEFS"
+echo ""
+echo " LIBINTL          : $LIBINTL"
+echo ""
+echo ""
+echo "The following options will be passed to the compiler:"
+echo "  LIBUNWIND_CFLAGS   : $LIBUNWIND_CFLAGS"
+echo "  LIBUNWIND_LIBS     : $LIBUNWIND_LIBS"
